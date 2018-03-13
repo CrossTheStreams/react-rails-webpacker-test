@@ -1,0 +1,17 @@
+import React from "react"
+import PropTypes from "prop-types"
+
+class InsideComp extends React.Component {
+  render () {
+    return (
+      <React.Fragment>
+        Greeting: {this.props.greeting}
+      </React.Fragment>
+    );
+  }
+}
+
+InsideComp.propTypes = {
+  greeting: PropTypes.string
+};
+export default InsideComp
