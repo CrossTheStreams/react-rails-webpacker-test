@@ -1,12 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-class InsideComp extends React.Component {
+export default class InsideComp extends React.Component {
   render () {
     return (
-      <React.Fragment>
+      <div>
         Greeting: {this.props.greeting}
-      </React.Fragment>
+      </div>
     );
   }
 }
@@ -14,4 +14,4 @@ class InsideComp extends React.Component {
 InsideComp.propTypes = {
   greeting: PropTypes.string
 };
-export default InsideComp
+
