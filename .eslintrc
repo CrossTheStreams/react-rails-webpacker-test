@@ -2,9 +2,7 @@
   "extends": "eslint-config-standard",
   "plugins": [
     "react",
-    "jsx-a11y",
-    "import",
-    "jasmine"
+    "import"
   ],
   "globals": {
     "document": true,
