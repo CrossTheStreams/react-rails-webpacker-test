@@ -1,4 +1,5 @@
 <div id='inside-comp'>
   <%= javascript_pack_tag 'application' %>
+  <%= javascript_pack_tag 'outside' %>
   <%= react_component("InsideComp", { greeting: "Hello" }, {prerender: true}) %>
 </div>
